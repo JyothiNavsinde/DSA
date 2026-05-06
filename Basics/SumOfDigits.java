@@ -1,3 +1,5 @@
+package Basics;
+
 public class SumOfDigits {
     public static void main(String args[]) {
         int n = 7654321;
