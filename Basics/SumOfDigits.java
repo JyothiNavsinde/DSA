@@ -5,7 +5,7 @@ public class SumOfDigits {
         int n = 7654321;
         int dup = n;
         int sum = 0;
-        for (int i = 1; i <= n; i++) {
+        while (n != 0) {
             int rem = n % 10;
             n = n / 10;
             sum += rem;
